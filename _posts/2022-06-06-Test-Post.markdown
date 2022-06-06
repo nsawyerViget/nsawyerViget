@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Jekyll Test"
-date:   2022-06-06 14:55:30 -0400
+title:  "First Jekyll Blog Post"
+date:   2022-06-06 17:00:00 -0400
 categories: jekyll update
 ---
 
-This is just a test post for the jekyll auto-generated blog.
+This will be my first official post on my intern blog for the summer. I survived day one, and I even made this blog!

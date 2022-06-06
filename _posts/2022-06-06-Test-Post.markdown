@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "First Jekyll Blog Post"
-date:   2022-06-06 17:00:00 -0400
+date:   2022-06-06 14:55:30 -0400
 categories: jekyll update
 ---
 
-This will be my first official post on my intern blog for the summer. I survived day one, and I even made this blog!
+This will mark the completeion of my first day. I finished the onboarding, met a lot of the team, and I even made this cool blog!

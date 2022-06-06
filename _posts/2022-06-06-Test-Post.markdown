@@ -6,3 +6,7 @@ categories: jekyll update
 ---
 
 This will mark the completeion of my first day. I finished the onboarding, met a lot of the team, and I even made this cool blog!
+
+I spent the day mostly re-familiarizing myself with github and how it uses SSH, as I have been using gitLab for a while and it formats everything slightly differently. From there, I got all of the gems and packages set up for the jekyll blog and spent most of the day troubleshooting the changes I had to make in the config file in order to get the page to properly configure on github pages.
+
+I haven't yet gotten the slightest clue how I could actually add onto any of the functionality provided, as it does not seem to have anything close to the usual ruby-on-rails file structure that I am used to using in order to actually expand out webpages. That will be research for tonight.

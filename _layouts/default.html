@@ -20,9 +20,10 @@
 
   <div class="wrapper">
     <header>
-      <h1 class="title"><a href="{{site.baseurl}}/">{{ site.title | default: site.github.repository_name }}</a></h1>
+      <h1></h1>
     </header>
     <div id="container">
+      <h1 class="title"><a href="{{site.baseurl}}/">{{ site.title | default: site.github.repository_name }}</a></h1>
       <p class="tagline">{{ site.description | default: site.github.project_tagline }}</p>
       <div id="main" role="main">
         <div class="download-bar">
@@ -38,8 +39,8 @@
         <article class="markdown-body">
           {{ content }}
           {%- for post in site.posts -%}
-          <p>{%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%} {{ post.date | date: date_format }}</p>
-          <a href="{{site.baseurl}}{{post.url}}">{{ post.title | escape }}</a>
+          <p><a href="{{site.baseurl}}{{post.url}}">{{ post.title | escape }}</a> &nbsp
+          <small>{%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%} {{ post.date | date: date_format }}</small></p>
           {{ post.excerpt }}
           {%- endfor -%}
         </article>

@@ -6,7 +6,7 @@ categories: jekyll update
 ---
 
 
-I spent most of today figuring out how to implement themes and dynamic links in Jekyll after actually figuring out how to implement my own custom pages last night.
+I spent most of today figuring out how to implement themes and dynamic links in Jekyll after actually figuring out how to implement my own custom pages last night. Links gave me a significant amount of trouble as their functionality seems to change between the development and live environment, at least in regards to prepending to the domain to the internal file path.
 
 In the intern group, we did some brainstorming on our project and came up with several ideas. Currently, we have narrowed it down to:
 

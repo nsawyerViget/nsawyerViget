@@ -18,10 +18,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Noah Sawyer Viget Blog
+title: Daily Viget Blog
 email: noah.sawyer@viget.com
 description: >- # this means to ignore newlines until "baseurl:"
-  My Viget blog, serving as my warmup project at Viget.
+  My Viget blog, serving as my warmup project at Viget. Here you'll find my daily updates on 
+  the stuff I have been working on during my internship for Viget as an application developer.
 baseurl: "/nsawyerViget" # the subpath of your site, e.g. /blog
 #url: "http://localhost:4000"
 url: "nsawyerViget.github.io" # the base hostname & protocol for your site, e.g. http://example.com

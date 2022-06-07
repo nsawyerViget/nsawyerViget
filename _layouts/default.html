@@ -20,7 +20,7 @@
 
   <div class="wrapper">
     <header>
-      <h1 class="title"><a href="{{site.url}}{{site.baseurl}}/">{{ site.title | default: site.github.repository_name }}</a></h1>
+      <h1 class="title"><a href="{{site.baseurl}}/">{{ site.title | default: site.github.repository_name }}</a></h1>
     </header>
     <div id="container">
       <p class="tagline">{{ site.description | default: site.github.project_tagline }}</p>
@@ -39,7 +39,7 @@
           {{ content }}
           {%- for post in site.posts -%}
           <p>{%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%} {{ post.date | date: date_format }}</p>
-          <a href="{{site.url}}{{site.baseurl}}{{post.url}}">{{ post.title | escape }}</a>
+          <a href="{{site.baseurl}}{{post.url}}">{{ post.title | escape }}</a>
           {{ post.excerpt }}
           {%- endfor -%}
         </article>

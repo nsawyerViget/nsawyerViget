@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "Day 2"
+date:   2022-06-07 14:55:00 -0400
+categories: jekyll update
+---
+
+
+I spent most of today figuring out how to implement themes and dynamic links in Jekyll after actually figuring out how to implement my own custom pages last night.
+
+In the intern group, we did some brainstorming on our project and came up with several ideas. Currently, we have narrowed it down to:
+
+1. An app which helps groups decide on things through the use of a voting tournament
+2. An app which helps groups split checks
+3. An app which helps an individual schedule their day by breaking up and scheduling tasks for them.
+
+We still need to decide on exactly which one we will do, and I will need to decide on a framework for us to use and get familiar with soon.

@@ -18,4 +18,4 @@ We still need to decide on exactly which one we will do, and I will need to deci
 
 End of day
 
-We have decided to cut the individualy scheduling app and are leaning towards the group tournament decision app, building as a webpage in ruby on rails. I had a pairing with Noah O. in Durham, and we have concluded that we will have to fight to the death for the title of official HQ Noah and ownership of the desk.
+We have decided to cut the individual scheduling app and are leaning towards the group tournament decision app, building as a webpage in ruby on rails. I had a pairing with Noah O. in Durham, and we have concluded that we will have to fight to the death for the title of official HQ Noah and ownership of the desk.

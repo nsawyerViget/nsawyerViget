@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Day 5"
+date:   2022-06-10 08:00:00 -0400
+categories: jekyll update
+---
+
+Today has been split into two different major topics. First, I spent a few hours in meetings with the rest of the intern team doing the practice run and the actual run for the pitch. We've gotten some good advice, mostly for the design, and Andrew and I will be going over the technical design with our advisors when we get the chance. We are still trying to decide between Rails-turbo and ActionCable.
+
+Individually, I have spent most of today building a very poor mockup of the group project in Rails. I managed to get brackets, ideas, and votes working properly so that anyone can submit an idea, edit ideas, add a vote to an idea, or create a new bracket to do all of those things in. It has basically no integration with anything like javascript, but I will work on that later.

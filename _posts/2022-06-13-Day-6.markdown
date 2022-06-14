@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Week 2, Day 1"
+date:   2022-06-10 08:00:00 -0400
+categories: jekyll update
+---
+
+I spent most of today doing research and figuring lots of stuff out on the turbo end. I ended up finding a pretty good tutorial series that actually goes into using turbo, alongside things like devise for user authentification by a creator known as Deanin. 
+
+Outside of that, I made a lot of progress on finalizing the tech we'll be using for the intern project with the help of Danny. We've settled on using turbo, which requires redis, and means I'll have to install wsl2 to get redis working on my machine. We'll be usin postgresql for the server. I have to talk to Eli about integrating Turbo and to Chris Manning about integrating React so Andrew can start working. I need to get working on getting Redis installed and running, as well as implementing the database structure I went over with Danny.

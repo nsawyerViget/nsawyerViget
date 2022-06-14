@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Day 3"
+date:   2022-06-08 08:00:00 -0400
+categories: jekyll update
+---
+
+The blog is pretty much done, so I will stop developing it here and instead focus on the group project. Posts will continue to be uploaded throughout the days, but the features for this are complete.
+
+We spent most of today in various meetings, mostly discussing the project. We've currently agreed to move forward with the tournament app. That means I will need to figure out how to do live updates with rails in the next few weeks.
+
+Note to self - ask Danny about websockets or something I can hook up to rails to do live voting that will update without needing to do a refresh.

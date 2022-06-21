@@ -6,3 +6,5 @@ categories: jekyll update
 ---
 
 Back from the long weekend, now with ocular migraines. I doubt I'll be getting much done today, but my plan is to add very basic, unauthenticated users tracked in the session using the session table in Rails. I'll also be adding a user column to the vote table so that each user can only vote once per matchup. We'll also be merging the pull request from my work on friday so that I can work on this feature, as it depends on the work I did friday, so hopefully no major complaints arise from the devs before we merge it at lunch.
+
+The basic scaffold was merged before lunch, and I moved on to working on the users. Turns out that Rails stores session variables in a hash called session. Attempting to create a user now checks if that user already exists based on the input name, then sets the current user in the session to either that previous user or a newly created user if the name is unique. Votes and choices now belong to users, and users can no longer cast duplicate votes on the same matchup.

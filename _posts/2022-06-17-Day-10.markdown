@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Week 2, Day 5"
+date:   2022-06-17 08:00:00 -0400
+categories: jekyll update
+---
+
+I spent most of today working on the intern team project. The final repo is set up for work, and Andrew and I got a Vite project kickstart set up and configured for postgresql. From there, I built out the scaffolds for all of the tables and set up some of the functionality for creating votes, linking between all of the pages, and displaying the children of an item when you display the parent object (round -> matchup -> choices).

@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Week 2, Day 3"
+date:   2022-06-15 08:00:00 -0400
+categories: jekyll update
+---
+
+Most of today was spent on a pairing tour with Eli and its consequences, as we went over Turbo, its functionality, its use cases, and its conflicting nature with JS. I'll probably be spending most of the second half of the project wrestling with just Turbo trying to get it to work.
+
+At the end of the day today I finally got the loaner Mac, which means I'll finally be able to run Redis and build rails apps successfully.

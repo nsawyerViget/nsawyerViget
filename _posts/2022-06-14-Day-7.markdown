@@ -6,3 +6,7 @@ categories: jekyll update
 ---
 
 Today I'm trying to get set up with a loaner Mac so that I can actually run Ruby on the environment it was built for. Redis doesn't run on windows period, so my only choice is to get a macbook or set up a virtual environment for it.
+
+I spent some of today working with Andrew. We managed to get a vite jumpstart project loaded up and with some javascript running. It's basic and it's not turbo, but it ran. This also served as a first test of a project setup with postgresql, and I managed to get it to work after some configuration of the environment variables in RoR. I also started work on the basic framework of the hackernews clone, but that is very much a background project right now.
+
+Whenever I get the loaner mac, I will install the whole RoR ecosystem and try to get Redis and Postgresql up and running as fast as possible.

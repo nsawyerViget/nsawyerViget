@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Week 1, Day 1"
+date:   2022-06-21 08:00:00 -0400
+categories: jekyll update
+---
+
+Back from the long weekend, now with ocular migraines. I doubt I'll be getting much done today, but my plan is to add very basic, unauthenticated users tracked in the session using the session table in Rails. I'll also be adding a user column to the vote table so that each user can only vote once per matchup. We'll also be merging the pull request from my work on friday so that I can work on this feature, as it depends on the work I did friday, so hopefully no major complaints arise from the devs before we merge it at lunch.

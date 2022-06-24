@@ -1,0 +1,32 @@
+---
+layout: post
+title:  "Week 3, Day 4"
+date:   2022-06-24 08:00:00 -0400
+categories: jekyll update
+---
+
+Today I mostly spend setting up the start of the API for the frontend based on the data models I have added so far. I'm leaving early today so I'm not getting as much done as I want, but I'm getting there. I've spent some time really thinking about stuff I have left to do for an mtp and included it below.
+
+Stuff left to do:
+
+### Week 4:
+Monday: Set up initial votes for choices in a bracket.
+Tuesday: Set up building rounds from initial votes.
+ - Allow initial voting on choices
+ - Create a round
+ - Sort by initial votes
+ - Cut off the bottom ones down to a power of two
+ - Build matchups from the new ordered set
+ - Add button to build first round and stop allowing new choices
+Wednesday: Set up building rounds form winners of previous rounds
+ - Get winners from previous round and check that there is more than 1
+ - Build new round
+ - Build new matchups
+ - Add button to advance build new rounds
+Thursday: Set up heroku
+Friday: Add new API endpoints for the new functionality to create init_votes, stop initial voting, and build and advance to the next round
+
+### Week 5:
+Monday: Set up game states and add API endpoints to change states
+Tuesday: Set up exiting and blocking new users once a game has started
+Wednesday: Set up admins and restrict round and game state management actions to only the admin user of a bracket

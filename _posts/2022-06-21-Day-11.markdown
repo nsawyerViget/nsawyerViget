@@ -8,3 +8,13 @@ categories: jekyll update
 Back from the long weekend, now with ocular migraines. I doubt I'll be getting much done today, but my plan is to add very basic, unauthenticated users tracked in the session using the session table in Rails. I'll also be adding a user column to the vote table so that each user can only vote once per matchup. We'll also be merging the pull request from my work on friday so that I can work on this feature, as it depends on the work I did friday, so hopefully no major complaints arise from the devs before we merge it at lunch.
 
 The basic scaffold was merged before lunch, and I moved on to working on the users. Turns out that Rails stores session variables in a hash called session. Attempting to create a user now checks if that user already exists based on the input name, then sets the current user in the session to either that previous user or a newly created user if the name is unique. Votes and choices now belong to users, and users can no longer cast duplicate votes on the same matchup.
+
+Tomorrow I will most likely be working on changing the routes so it starts with connecting to a bracket and then creating/setting a user before proceeding. From there, I still need to work on:
+
+1. Adding choices to a bracket (make choices belong_to brackets?), 
+2. Letting users vote on those choices (a new vote table?), 
+3. Cutting off the lower voted initial options to a power of 2,
+4. Assembling a list of choices from those remaining, 
+5. Generating a round  and matchups from a list of choices,  
+6. Generating a list of choices from the winners of a round, and
+7. Creating a many-many relationship between users and brackets so they can track how many users they are waiting on to vote

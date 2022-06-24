@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "Week 3, Day 2"
+date:   2022-06-22 08:00:00 -0400
+categories: jekyll update
+---
+
+Feeling better today. I spent most of today fixing the previous implementation of users by swapping out some of the basic searches for sql queries, with lots of bugfixing required. Had a pairing tour with Chris Jones and talked DevOps, then went through the project with him. He taught me about how controllers and their instance variables actually work, with a new controller being created for every request, which cleared up a lot of my mental misconceptions about Ruby and helped me fix a few bits of my code. Unforunately, I discovered a bug with Rails while working with Danny on changing some things over to sql queries involving the .. and ... operators in Rails, with their separate operations seemingly having been merged at some point. Since then, I have begun working on the lobby system, where every session has a current user and a current bracket that are set when entering the site. I still want to add users, but I need to learn how to make a many-many relationship between users and brackets to allow brackets to see what users belong to them without having users be tied to a single bracket.
+
+Stuff left to do:
+
+1. Letting users vote on those choices to create initial vote counts for seeding(a new vote table?), 
+2. Cutting off the lower voted initial options to a power of 2,
+3. Assembling a list of choices from those remaining, 
+4. Generating a round  and matchups from a list of choices,  
+5. Generating a list of choices from the winners of a round, and
+6. Creating a many-many relationship between users and brackets so they can track how many users they are waiting on to vote

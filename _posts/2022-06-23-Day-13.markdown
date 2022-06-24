@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "Week 3, Day 3"
+date:   2022-06-23 08:00:00 -0400
+categories: jekyll update
+---
+
+Got the many to many relationship between users and brackets set up using has_and_belongs_to_many and a join table. It was actually remarkably easy and did not require an additional action or configuration. Brackets can now see their users and users can see their brackets. Since then, I've added the ability for users to create choices in brackets, as well as start rounds and move the bracket to the next round. From here on out I'll probably be working on building rounds from choices or the winners of the previous round.
+
+Stuff left to do:
+
+1. Letting users vote on those choices to create initial vote counts for seeding(a new vote table?), 
+2. Cutting off the lower voted initial options to a power of 2 (make a function for the greatest power of 2 which does not exceed a given value),
+3. Assembling a list of choices from those remaining, 
+4. Generating a round  and matchups from a list of choices, and 
+5. Generating a list of choices from the winners of a round,
+6. Exposing lots of different parts of the bracket state in api endpoints that Andrew can access to get data about the state and put data into the database.

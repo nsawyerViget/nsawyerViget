@@ -21,12 +21,12 @@ From my previous schedule:
  - Build matchups from the new ordered set
  - Add button to build first round and stop allowing new choices
 
-[DONE]Wednesday: Set up building rounds form winners of previous rounds
+[DONE]Wednesday: Set up building rounds from winners of previous rounds
 
  - Get winners from previous round and check that there is more than 1
  - Build new round
  - Build new matchups
- - Add button to advance build new rounds
+ - Add button to build and advance to new rounds
 
 Tuesday: Set up heroku
 
@@ -38,4 +38,4 @@ Friday: Set up game states and add API endpoints to change states, make sure som
 
 ### Week 5:
 
-Monday: Set up exiting and blocking new users once a game has started
+Monday: Set up exiting and blocking new users once a game has started, and handle cases for ending game when there is only one matchup in the round and the next round is built.

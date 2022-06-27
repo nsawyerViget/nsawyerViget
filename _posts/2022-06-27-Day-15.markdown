@@ -1,0 +1,41 @@
+---
+layout: post
+title:  "Week 4, Day 1"
+date:   2022-06-27 08:00:00 -0400
+categories: jekyll update
+---
+
+I got lots of work done today on the backend, and I'm close to wrapping up the data models. All I have left on that end is game state and admins. The rest from here on out should be visual stuff, integrating with react, turbo, and websockets.
+
+From my previous schedule:
+
+### Week 4:
+[DONE]Monday: Set up initial votes for choices in a bracket.
+
+[DONE]Tuesday: Set up building rounds from initial votes.
+
+ - Allow initial voting on choices
+ - Create a round
+ - Sort by initial votes
+ - Cut off the bottom ones down to a power of two
+ - Build matchups from the new ordered set
+ - Add button to build first round and stop allowing new choices
+
+[DONE]Wednesday: Set up building rounds form winners of previous rounds
+
+ - Get winners from previous round and check that there is more than 1
+ - Build new round
+ - Build new matchups
+ - Add button to advance build new rounds
+
+Tuesday: Set up heroku
+
+Wednesday: Add new API endpoints for the new functionality to create init_votes, stop initial voting, and build and advance to the next round, start working on admin and admin permission only actions, add admin user as a field in bracket model
+
+Thursday: Build join screens and format them, start working on turbo streams to get names to appear live
+
+Friday: Set up game states and add API endpoints to change states, make sure some actions can only be done from certain states and chage the state accordingly.
+
+### Week 5:
+
+Monday: Set up exiting and blocking new users once a game has started

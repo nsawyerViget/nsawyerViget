@@ -1,0 +1,38 @@
+---
+layout: post
+title:  "Week 4, Day 3"
+date:   2022-06-29 08:00:00 -0400
+categories: jekyll update
+---
+
+Today has been a day of pain and of progress. I have spent the entirity of the day on turbo and getting the choices and users page to update live for all sessions whenever a new one is added into a bracket, as well as making sure only those brackets update them rather than every single session. This was especially difficult because turbo's broadcast functions have a separate field for their target and their "streamable" but there is no documentation for what a streamable is.
+
+The streamable, from what I can gather, is the name of the turbo stream in the \<turbo_stream_from "stream_name"\> tag in the markdown, while the target is the name of the turbo frame you're trying to perform a turbo stream action on. The documentation and most online forums entirely fail to elaborate on this, and I only arrived at these conclusions from testing and guesswork.
+
+From my previous schedule:
+
+### Week 4:
+[DONE]Monday: Set up initial votes for choices in a bracket.
+
+[DONE]Tuesday: Set up building rounds from initial votes.
+
+[DONE]Wednesday: Set up building rounds from winners of previous rounds
+
+[EOD MONDAY]
+
+[DONE]Tuesday: Set up heroku
+
+[EOD TUESDAY]
+
+[DONE]Wednesday: Build join screens and format them, start working on turbo streams to get names to appear live
+
+[EOD WEDNESDAY]
+
+Thursday: Add new API endpoints for the new functionality to create nit_votes, stop initial voting, and build and advance to the next round, start working on admin and admin permission only actions, add admin user as a field in bracket model
+
+
+Friday: Set up game states and add API endpoints to change states, make sure some actions can only be done from certain states and chage the state accordingly.
+
+### Week 5:
+
+Monday: Set up exiting and blocking new users once a game has started, and handle cases for ending game when there is only one matchup in the round and the next round is built.

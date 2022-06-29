@@ -1,0 +1,35 @@
+---
+layout: post
+title:  "Week 4, Day 2"
+date:   2022-06-28 08:00:00 -0400
+categories: jekyll update
+---
+
+Today was pretty good. I got Heroku up and running and pushed for the first time. After some updating of gems and javascript, finding out I needed to be on the main branch, and realizing that it pulls all information from the current pushed main branch, not the local main branch, it finally got up. After that, I made some refined visual pages for the join screens with Andrew and got them pushed up to Heroku.
+
+From my previous schedule:
+
+### Week 4:
+[DONE]Monday: Set up initial votes for choices in a bracket.
+
+[DONE]Tuesday: Set up building rounds from initial votes.
+
+[DONE]Wednesday: Set up building rounds from winners of previous rounds
+
+[EOD MONDAY]
+
+[DONE]Tuesday: Set up heroku
+
+[EOD TUESDAY]
+
+Wednesday: Build join screens and format them, start working on turbo streams to get names to appear live
+
+
+Thursday: Add new API endpoints for the new functionality to create nit_votes, stop initial voting, and build and advance to the next round, start working on admin and admin permission only actions, add admin user as a field in bracket model
+
+
+Friday: Set up game states and add API endpoints to change states, make sure some actions can only be done from certain states and chage the state accordingly.
+
+### Week 5:
+
+Monday: Set up exiting and blocking new users once a game has started, and handle cases for ending game when there is only one matchup in the round and the next round is built.

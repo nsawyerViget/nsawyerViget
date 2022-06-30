@@ -5,7 +5,7 @@ date:   2022-06-29 08:00:00 -0400
 categories: jekyll update
 ---
 
-I spent today working between two things: some extra turbo and adding the game state and admin permissions/priveleged actions. Now that game state is implemented I need to create a function to redirect to the correct page when you log into a bracket and to prevent certain actions like joining or adding choices once the game state is above a certain value.
+I spent today working between two things: some extra turbo and adding the game state and admin permissions/priveleged actions. Now that game state is implemented I need to create a function to redirect to the correct page when you log into a bracket and to prevent certain actions like joining or adding choices once the game state is above a certain value. I also pushed the turbo items to heroku and got redis up and running, so it works now. Surprisingly, all I needed to do was run a single command, and it was basically no hassle.
 
 From my previous schedule:
 

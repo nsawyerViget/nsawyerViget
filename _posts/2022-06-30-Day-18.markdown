@@ -1,0 +1,38 @@
+---
+layout: post
+title:  "Week 4, Day 3"
+date:   2022-06-29 08:00:00 -0400
+categories: jekyll update
+---
+
+I spent today working between two things: some extra turbo and adding the game state and admin permissions/priveleged actions. Now that game state is implemented I need to create a function to redirect to the correct page when you log into a bracket and to prevent certain actions like joining or adding choices once the game state is above a certain value.
+
+From my previous schedule:
+
+### Week 4:
+[DONE]Monday: Set up initial votes for choices in a bracket.
+
+[DONE]Tuesday: Set up building rounds from initial votes.
+
+[DONE]Wednesday: Set up building rounds from winners of previous rounds
+
+[EOD MONDAY]
+
+[DONE]Tuesday: Set up heroku
+
+[EOD TUESDAY]
+
+[DONE]Wednesday: Build join screens and format them, start working on turbo streams to get names to appear live
+
+[EOD WEDNESDAY]
+
+[DONE] Thursday: Set up game states, make sure some actions can only be done from certain states and change the state accordingly. Add admins to brackets and set them as the first user that joins.
+
+[EOD THURSDAY]
+
+Friday: Add new API endpoints for the new functionality to create nit_votes, stop initial voting, and build and advance to the next round. Make a redirect funtion for joining that redirects to the correct page based on the game state, and change buttons to automatically display their advance buttons if the state has already passed them.
+
+
+### Week 5:
+
+Monday: Set up exiting and blocking new users once a game has started, and handle cases for ending game when there is only one matchup in the round and the next round is built.

@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "Week 5, Day 1"
+date:   2022-07-05 08:00:00 -0400
+categories: jekyll update
+---
+
+Today was lots of bugfixes and differentaiting joining and creating a room. Rooms now have generated codes instead of names, and all codes are unique. There was a lot of bugs in the game state checks and admin checks, but some of those have been fixed and some have been written down to fix later.
+
+From my previous schedule:
+
+
+### Week 5:
+
+Monday: Holiday
+
+[DONE] Tuesday: Differentiate create and join pages. Autogenerate new brackets with unique names.
+
+[EOD TUESDAY]
+
+Wednesday: Set up exiting and blocking new users once a game has started, and handle cases for ending game when there is only one matchup in the round and the next round is built.

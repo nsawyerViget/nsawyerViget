@@ -1,0 +1,29 @@
+---
+layout: post
+title:  "Week 5, Day 3"
+date:   2022-07-07 08:00:00 -0400
+categories: jekyll update
+---
+
+An extremely productive day today! Users can now leave games using the leave button, which removes them from the list of users in the bracket. Users can also ready up, or more accurately they are marked as ready when they perform certain actions. This is done using an extra many-many relationship on top of the normal brackets-users one with the use of a through table. When a user is ready, an extra row is added to the through table, though no duplicates are allowed.
+
+From my previous schedule:
+
+
+### Week 5:
+
+Monday: Holiday
+
+Tuesday: Differentiate create and join pages. Autogenerate new brackets with unique codes.
+
+[EOD TUESDAY]
+
+Wednesday: Heroku bugfixing. Turn state into an enum instead of magic numbers. API endpoints.
+
+[EOD WEDNESDAY]
+
+Thursday: Allow users to be marked as ready. Allow users to leave brackets. API endpoints.
+
+[EOD THURSDAY]
+
+Friday: Add an action to clear all ready users from a bracket when an action is made that changes the game state or a new round is made.

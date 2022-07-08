@@ -1,0 +1,29 @@
+---
+layout: post
+title:  "Week 5, Day 4"
+date:   2022-07-08 08:00:00 -0400
+categories: jekyll update
+---
+
+Another extremely productive day today. Readying is merged in and working on the live server, as well as leaving. Choices now have reasoning attached to them. Matchups now have an api to properly display and create votes for the current session. Several fields on forms now require input rather than being allowed to stay blank, including the label of choices and the name of users. Codes are now right-justified with 0s to maintain a length of 6.
+
+From my previous schedule:
+
+
+### Week 5:
+
+Monday: Holiday
+
+Tuesday: Differentiate create and join pages. Autogenerate new brackets with unique codes.
+
+[EOD TUESDAY]
+
+Wednesday: Heroku bugfixing. Turn state into an enum instead of magic numbers. API endpoints.
+
+[EOD WEDNESDAY]
+
+Thursday: Allow users to be marked as ready. Allow users to leave brackets. API endpoints.
+
+[EOD THURSDAY]
+
+Friday: Add an action to clear all ready users from a bracket. API endpoints. Make some form fields required. Bugfixes. Left-pad codes with 0s to maintain 6 digits.

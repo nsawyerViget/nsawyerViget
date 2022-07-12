@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Week 6, Day 1"
+date:   2022-07-11 08:00:00 -0400
+categories: jekyll update
+---
+
+This morning was quite productive, but I find myself running out of things to do today here in the afternoon. I spent the morning working on getting actioncable to work on a pairing call with Andrew, and we managed to get it to recieve messages. Apparently, the mixin which a lot of the examples use does not work anymore, and you need to provide the internal functions direction inside of the call to the function call to create a subscription. Since then I have just been doing minor QA fixes.
